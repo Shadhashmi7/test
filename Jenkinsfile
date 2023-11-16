@@ -9,6 +9,7 @@ pipeline {
         stage('Build image') {
             steps {
                 sh 'docker build -t mytest .'
+                sh 'ls /usr/share/nginx/html'
             }
         }
         stage('docker images push dockerhub') {
