@@ -2,6 +2,6 @@ version: '3.1'
 
 services:
   web:
-    image: meehashmi/mytest:latest
+    image: meehashmi/mynote:latest
     ports:
       - "8000:80"
